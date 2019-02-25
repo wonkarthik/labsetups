@@ -1,4 +1,4 @@
-Boxboat Boot Camp Labs
+ Boot Camp Labs
 ----------------------
 
 5.1: Docker Registry

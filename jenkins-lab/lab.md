@@ -1,6 +1,6 @@
 ## Install Jenkins
 
-1. Create New Instance   http://play.boxboat.net
+1. Create New Instance  
 2. Start Jenkins with docker access ```docker run --name jenkins --rm -d -p 8081:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -v /usr/local/bin/docker:/usr/bin/docker -u root jenkins/jenkins```
 3. Get the admin password ```docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword```
 4. Install reccomended plugins
